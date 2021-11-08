@@ -1,0 +1,206 @@
+body{
+    background:#0d0d0d ;
+
+}
+
+
+h1,h2,h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+table,th,td{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div{
+    margin-bottom: 10px;
+}
+label{
+    display: inline-block;
+    width: 150px;
+}
+.header-new {
+    padding: 200px;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/2a/c5/8c/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-size: 30px;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    color: #222;
+    text-transform: uppercase;
+    border-bottom: 3px solid white;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+
+}
+
+.header-con{
+    position: center;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.login-form{
+    width: 550px;
+    left: 35%;
+    top: 10%;
+    tranform: translate(-50%,-50%);
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    color: #fff;
+
+}
+
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding:16px 10px;
+    border:0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border:0;
+}
+
+.add-customer-form{
+    position: absolute;
+    top: 60%;
+    left:45%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+}
+
+.add-customer-form label{
+    color: white;
+}
+
+.add-customer-form button{
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.display-added{
+    position: absolute;
+    top: 30%;
+    left:45%;
+    width: 1000px;
+    color: white;
+}
+
+.display-added h3{
+    position: absolute;
+    top: 30%;
+    left:45%;
+    color: white;
+}
+
+.search-customer-form{
+    position: absolute;
+    top: 40%;
+    left:40%;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.search-customer-form input{
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.go-to{
+    position: absolute;
+    top: 40%;
+    left:47%;
+
+}

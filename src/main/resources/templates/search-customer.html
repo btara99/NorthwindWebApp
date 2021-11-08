@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search for a customer</title>
+</head>
+<body>
+<div th:insert="fragments/navbar"></div>
+<h2>Search for a customer</h2>
+<div class="search-customer-form">
+<form th:action="@{/search-results}" method="post">
+    <label>Customer Name:</label>
+    <input type="text" name="customerName"/><br>
+    <p></p>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

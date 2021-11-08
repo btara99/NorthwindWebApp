@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:insert="fragments/navbar"></div>
+<h2>ACCESS DENIED</h2>
+<p></p>
+<h3>Please return to the homepage</h3>
+<p></p>
+<form th:action="@{/}" class="go-to">
+    <input type="submit" value="Go to Home" />
+</form>
+<div th:insert="fragments/footer"></div>
+</body>
+</html>

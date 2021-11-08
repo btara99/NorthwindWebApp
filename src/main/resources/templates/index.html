@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>CRUD Application</title>
+    <link th:href="@{/css/style.css}" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div th:insert="fragments/navbar"></div>
+<div th:insert="fragments/header"></div>
+    <form class="d-grid gap-2 col-6 mx-auto " th:action="@{/logout}" method="post" >
+        <input class="btn btn-primary" type="submit" value="LOGOUT">
+    </form>
+
+<div th:insert="fragments/footer"></div>
+
+
+</body>
+
+
+</html>
